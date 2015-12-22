@@ -1,0 +1,10 @@
+<suite name="Web Driver Fiscal Regression Tests" verbose="1" thread-count="1">
+	
+	<test name = "TestFiscalUDIConfiguration">
+		<classes>
+			<class name="org.ektqa.webdriver.fiscal.TestFiscalUDIConfiguration" />
+		</classes>
+	</test>
+	
+	
+</suite> 

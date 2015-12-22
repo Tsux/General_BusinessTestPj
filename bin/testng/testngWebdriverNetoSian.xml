@@ -1,0 +1,9 @@
+<suite name="Web Driver Neto Individual Tests" verbose="1" thread-count="1">
+	
+	<test name = "TestCambioPersonal">
+		<classes>
+			<class name="org.ektqa.webdriver.neto.TestCambioPersonal" />
+		</classes>
+	</test>
+	
+</suite> 

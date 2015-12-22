@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Web Driver Fiscal Individual Tests]">
+  <test name="TestReportePerdidasFiscalesLISR(failed)">
+    <classes>
+      <class name="org.ektqa.webdriver.fiscal.TestReportePerdidasFiscalesLISR">
+        <methods>
+          <include name="accessToPageReportedePerdidasFiscalesLISR"/>
+          <include name="performSearchBySociedad"/>
+          <include name="addEjercicios"/>
+          <include name="changeNegociofromPanel"/>
+          <include name="tearDown"/>
+          <include name="selectMexicoAndBAZBus"/>
+          <include name="setUpProperties"/>
+        </methods>
+      </class> <!-- org.ektqa.webdriver.fiscal.TestReportePerdidasFiscalesLISR -->
+    </classes>
+  </test> <!-- TestReportePerdidasFiscalesLISR(failed) -->
+</suite> <!-- Failed suite [Web Driver Fiscal Individual Tests] -->

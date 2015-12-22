@@ -1,0 +1,8 @@
+<suite name="Web Driver DEX Individual Tests" verbose="1" thread-count="1">
+	
+	<test name = "TestDEXTarjetasPrepago">
+		<classes>
+			<class name="org.ektqa.webdriver.dex.TestDEXTarjetasPrepago" />
+		</classes>
+	</test>
+</suite> 

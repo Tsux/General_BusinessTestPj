@@ -1,0 +1,8 @@
+<suite name="Web Driver Seguridad Switch Individual Tests" verbose="1" thread-count="1">
+	
+	<test name = "TestAltaEmpleados">
+		<classes>
+			<class name="org.ektqa.webdriver.seguridad.TestAltaEmpleados" />
+		</classes>
+	</test>
+</suite> 

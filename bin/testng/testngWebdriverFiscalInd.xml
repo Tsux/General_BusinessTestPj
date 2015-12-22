@@ -1,0 +1,15 @@
+<suite name="Web Driver Fiscal Individual Tests" verbose="1" thread-count="1">
+	
+	<test name = "TestReportePerdidasFiscalesLISR">
+		<classes>
+			<class name="org.ektqa.webdriver.fiscal.TestReportePerdidasFiscalesLISR" />
+		</classes>
+	</test>
+	
+	<test name = "TestReportePerdidasFiscalesInf">
+		<classes>
+			<class name="org.ektqa.webdriver.fiscal.TestReportePerdidasFiscalesInf" />
+		</classes>
+	</test>
+	
+</suite> 

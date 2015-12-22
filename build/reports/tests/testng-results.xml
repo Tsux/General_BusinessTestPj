@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="7" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[1. Failure! <a href="file:///C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/ScreenShots/18_dic_2015__06_12_36PM_10.51.243.144_addEjercicios.png" target="_blank">TestReportePerdidasFiscalesLISR > addEjercicios</a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Web Driver Fiscal Regression Tests" duration-ms="19797" started-at="2015-12-19T00:11:16Z" finished-at="2015-12-19T00:11:36Z">
+    <groups>
+    </groups>
+    <test name="TestFiscalUDIConfiguration" duration-ms="19797" started-at="2015-12-19T00:11:16Z" finished-at="2015-12-19T00:11:36Z">
+      <class name="org.ektqa.webdriver.fiscal.TestFiscalUDIConfiguration">
+        <test-method status="PASS" signature="setUpProperties(java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.ektqa.webdriver.fiscal.TestFiscalUDIConfiguration@32d0de0e]" name="setUpProperties" is-config="true" duration-ms="8635" started-at="2015-12-18T18:11:16Z" finished-at="2015-12-18T18:11:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.51.243.144]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4444]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[*firefox C:\Program Files (x86)\Mozilla Firefox\firefox.exe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://10.50.115.48:8543/WebDespachoFiscal]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[752790]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pruebasc3*]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpProperties -->
+        <test-method status="PASS" signature="selectMexicoAndBAZBus()[pri:0, instance:org.ektqa.webdriver.fiscal.TestFiscalUDIConfiguration@32d0de0e]" name="selectMexicoAndBAZBus" duration-ms="660" started-at="2015-12-18T18:11:25Z" finished-at="2015-12-18T18:11:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMexicoAndBAZBus -->
+        <test-method status="PASS" signature="verifyUDIsAreAvailableForConfiguration()[pri:0, instance:org.ektqa.webdriver.fiscal.TestFiscalUDIConfiguration@32d0de0e]" name="verifyUDIsAreAvailableForConfiguration" duration-ms="8236" started-at="2015-12-18T18:11:26Z" depends-on-methods="org.ektqa.webdriver.fiscal.TestFiscalUDIConfiguration.selectMexicoAndBAZBus" finished-at="2015-12-18T18:11:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUDIsAreAvailableForConfiguration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.ektqa.webdriver.fiscal.TestFiscalUDIConfiguration@32d0de0e]" name="tearDown" is-config="true" duration-ms="2243" started-at="2015-12-18T18:11:34Z" finished-at="2015-12-18T18:11:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.ektqa.webdriver.fiscal.TestFiscalUDIConfiguration -->
+    </test> <!-- TestFiscalUDIConfiguration -->
+  </suite> <!-- Web Driver Fiscal Regression Tests -->
+  <suite name="Web Driver Fiscal Individual Tests" duration-ms="62466" started-at="2015-12-19T00:11:36Z" finished-at="2015-12-19T00:12:39Z">
+    <groups>
+    </groups>
+    <test name="TestReportePerdidasFiscalesLISR" duration-ms="62419" started-at="2015-12-19T00:11:36Z" finished-at="2015-12-19T00:12:39Z">
+      <class name="org.ektqa.webdriver.fiscal.TestReportePerdidasFiscalesLISR">
+        <test-method status="PASS" signature="setUpProperties(java.lang.String, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.ektqa.webdriver.fiscal.TestReportePerdidasFiscalesLISR@37af3abd]" name="setUpProperties" is-config="true" duration-ms="8080" started-at="2015-12-18T18:11:36Z" finished-at="2015-12-18T18:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.51.243.144]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4444]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[*firefox C:\Program Files (x86)\Mozilla Firefox\firefox.exe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://10.50.115.48:8543/WebDespachoFiscal]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[752790]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pruebasc3*]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpProperties -->
+        <test-method status="PASS" signature="selectMexicoAndBAZBus()[pri:0, instance:org.ektqa.webdriver.fiscal.TestReportePerdidasFiscalesLISR@37af3abd]" name="selectMexicoAndBAZBus" duration-ms="577" started-at="2015-12-18T18:11:44Z" finished-at="2015-12-18T18:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMexicoAndBAZBus -->
+        <test-method status="PASS" signature="changeNegociofromPanel()[pri:0, instance:org.ektqa.webdriver.fiscal.TestReportePerdidasFiscalesLISR@37af3abd]" name="changeNegociofromPanel" duration-ms="3616" started-at="2015-12-18T18:11:45Z" depends-on-methods="org.ektqa.webdriver.fiscal.TestReportePerdidasFiscalesLISR.selectMexicoAndBAZBus" finished-at="2015-12-18T18:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeNegociofromPanel -->
+        <test-method status="PASS" signature="accessToPageReportedePerdidasFiscalesLISR()[pri:0, instance:org.ektqa.webdriver.fiscal.TestReportePerdidasFiscalesLISR@37af3abd]" name="accessToPageReportedePerdidasFiscalesLISR" duration-ms="9373" started-at="2015-12-18T18:11:49Z" depends-on-methods="org.ektqa.webdriver.fiscal.TestReportePerdidasFiscalesLISR.changeNegociofromPanel" finished-at="2015-12-18T18:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessToPageReportedePerdidasFiscalesLISR -->
+        <test-method status="PASS" signature="performSearchBySociedad()[pri:0, instance:org.ektqa.webdriver.fiscal.TestReportePerdidasFiscalesLISR@37af3abd]" name="performSearchBySociedad" duration-ms="4970" started-at="2015-12-18T18:11:58Z" depends-on-methods="org.ektqa.webdriver.fiscal.TestReportePerdidasFiscalesLISR.accessToPageReportedePerdidasFiscalesLISR" finished-at="2015-12-18T18:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performSearchBySociedad -->
+        <test-method status="FAIL" signature="addEjercicios()[pri:0, instance:org.ektqa.webdriver.fiscal.TestReportePerdidasFiscalesLISR@37af3abd]" name="addEjercicios" duration-ms="33302" started-at="2015-12-18T18:12:03Z" depends-on-methods="org.ektqa.webdriver.fiscal.TestReportePerdidasFiscalesLISR.performSearchBySociedad" finished-at="2015-12-18T18:12:36Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[Element is not currently visible and so may not be interacted with (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
+System info: host: 'EKT1052718', ip: '10.51.243.144', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 78bd4fcd-b8f7-467a-80eb-563649120483
+Command duration or timeout: 63 milliseconds
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'EKT1052718', ip: '10.51.243.144', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=b4e24cce-ab30-45da-8e74-57a8bf763b56, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b4e24cce-ab30-45da-8e74-57a8bf763b56]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
+System info: host: 'EKT1052718', ip: '10.51.243.144', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 78bd4fcd-b8f7-467a-80eb-563649120483
+Command duration or timeout: 63 milliseconds
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'EKT1052718', ip: '10.51.243.144', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=b4e24cce-ab30-45da-8e74-57a8bf763b56, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b4e24cce-ab30-45da-8e74-57a8bf763b56
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.click(RemoteMouse.java:59)
+	at org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:37)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:50)
+	at org.ektqa.webdriver.common.IndividualTestCommon.clickOnCurrentLocation(IndividualTestCommon.java:263)
+	at org.ektqa.fiscalbus.util.FiscalTestCommon.fillEjercicioSheet(FiscalTestCommon.java:71)
+	at org.ektqa.webdriver.fiscal.TestReportePerdidasFiscalesLISR.addEjercicios(TestReportePerdidasFiscalesLISR.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:136)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:80)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: '2.47.1', revision: '411b314', time: '2015-07-30 03:03:16'
+System info: host: 'EKT1052718', ip: '10.51.243.144', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 78bd4fcd-b8f7-467a-80eb-563649120483
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'EKT1052718', ip: '10.51.243.144', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: driver.version: RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.click(RemoteMouse.java:59)
+	at org.openqa.selenium.support.events.internal.EventFiringMouse.click(EventFiringMouse.java:42)
+	at org.openqa.selenium.remote.server.handler.interactions.ClickInSession.call(ClickInSession.java:40)
+	at org.openqa.selenium.remote.server.handler.interactions.ClickInSession.call(ClickInSession.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+            <line>
+              <![CDATA[1. Failure! <a href="file:///C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/ScreenShots/18_dic_2015__06_12_36PM_10.51.243.144_addEjercicios.png" target="_blank">TestReportePerdidasFiscalesLISR > addEjercicios</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addEjercicios -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.ektqa.webdriver.fiscal.TestReportePerdidasFiscalesLISR@37af3abd]" name="tearDown" is-config="true" duration-ms="2187" started-at="2015-12-18T18:12:37Z" finished-at="2015-12-18T18:12:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.ektqa.webdriver.fiscal.TestReportePerdidasFiscalesLISR -->
+    </test> <!-- TestReportePerdidasFiscalesLISR -->
+    <test name="TestReportePerdidasFiscalesInf" duration-ms="0" started-at="2015-12-19T00:12:39Z" finished-at="2015-12-19T00:12:39Z">
+    </test> <!-- TestReportePerdidasFiscalesInf -->
+  </suite> <!-- Web Driver Fiscal Individual Tests -->
+  <suite name="Web Driver DEX Individual Tests" duration-ms="0" started-at="2015-12-19T00:12:39Z" finished-at="2015-12-19T00:12:39Z">
+    <groups>
+    </groups>
+    <test name="TestDEXTarjetasPrepago" duration-ms="0" started-at="2015-12-19T00:12:39Z" finished-at="2015-12-19T00:12:39Z">
+    </test> <!-- TestDEXTarjetasPrepago -->
+  </suite> <!-- Web Driver DEX Individual Tests -->
+</testng-results>

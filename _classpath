@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/api/java"/>
+	<classpathentry kind="src" path="src/impl/java"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry exported="true" kind="con" path="org.springsource.ide.eclipse.gradle.classpathcontainer"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/CoreLibraries/commons-codec-1.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/CoreLibraries/commons-lang3-3.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/CoreLibraries/hamcrest-core-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/CoreLibraries/hamcrest-library-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/CoreLibraries/testng-6.8.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/SeleniumUtils/selenium-api-2.47.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/SeleniumUtils/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/SeleniumUtils/selenium-remote-driver-2.47.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/SeleniumUtils/selenium-grid-hub-1.0.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/SeleniumUtils/selenium-grid-remote-control-1.0.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/SeleniumUtils/selenium-grid-tools-1.0.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/SeleniumUtils/selenium-support-2.47.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/CoreLibraries/junit-addons-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/CoreLibraries/junit-4.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/CoreLibraries/log4j-1.2.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/CoreLibraries/guava-18.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/CoreLibraries/gson-2.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/CoreLibraries/commons-io-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/SeleniumUtils/selenium-firefox-driver-2.47.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/CoreLibraries/jcommander-1.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/CoreLibraries/httpclient-4.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/CoreLibraries/httpcore-4.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/CoreLibraries/commons-logging-1.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/build/classes/api"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/build/classes/impl"/>
+	<classpathentry kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/CoreLibraries/poi-3.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/iText/itextpdf-5.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/iText/itext-xtra-5.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/CoreLibraries/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/emaldonadom/Documents/workspace-sts-3.7.0.RELEASE/GeneralBusiness_test/libs/CoreLibraries/jetty-6.0.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
